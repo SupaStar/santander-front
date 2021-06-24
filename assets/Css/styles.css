@@ -223,3 +223,90 @@ li {
 .circulo > img {
     max-width: 75%;
 }
+
+.features {
+    display: grid;
+    /*grid-template-columns: repeat(2, 1fr);*/
+    /*grid-template-rows: repeat(2, 330px);*/
+
+
+    /*height: 660px;*/
+    /*grid-template-rows: repeat(2, 1fr);*/
+    /*grid-template-columns: repeat(2, 2fr);*/
+
+    grid-template: repeat(2, 1fr) / repeat(2, 330px);
+
+
+    /*grid-template-columns: 100px 300px;*/
+    /*grid-template-columns: 500px 1fr;*/
+    /*grid-template-columns: 1fr 1fr;*/
+}
+
+.feature-art {
+    background-color: lightcyan;
+    margin: 10px;
+    width: 40%;
+    height: 50px;
+}
+
+.tarjetas {
+    background-color: #025157;
+    padding: 5% 10%;
+    display: grid;
+    grid-template: repeat(2, 330px) / repeat(2, 1fr);
+}
+
+.tarjeta {
+    margin: 0 15px 30px 15px;
+    background-color: #fff;
+    border: 1px solid #dadada;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.tarjeta-texto {
+    padding-left: 40px;
+}
+
+.tarjeta-texto > h3 {
+    font-size: 24px;
+    color: #343434;
+    font-weight: 400;
+}
+
+.tarjeta-texto > p {
+    font-size: 16px;
+    color: #7e7e7e;
+    font-weight: 400;
+}
+
+.tarjeta-texto > figure {
+    margin-left: 0;
+    margin-top: -50px;
+    margin-bottom: -10px;
+}
+
+.tarjeta-texto > a {
+    color: #67b54b;
+    font-size: 16px;
+}
+
+.tarjeta-texto > figure > img {
+    width: 50px;
+}
+
+.tarjeta-imagen {
+    flex: 1;
+    width: 40%;
+    position: relative;
+    right: -50px;
+    height: 80%;
+}
+
+.tarjeta-imagen > figure > img {
+    margin-left: -34px;
+    margin-top: -16%;
+    height: 270px;
+}
