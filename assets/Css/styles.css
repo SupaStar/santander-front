@@ -10,6 +10,10 @@ p {
     color: #46484c;
 }
 
+main {
+    padding-top: 100px;
+}
+
 #enviar {
     color: #fff;
     background-color: #025157;
@@ -413,4 +417,94 @@ li {
     color: #67b54b;
     font-weight: 600;
     text-decoration: none;
+}
+
+/** dispositivos móviles en vista viewport (vertical) */
+@media (max-width: 575px) {
+    .navbar, .actions {
+        display: none;
+    }
+
+    main {
+        margin-top: 130px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .banner > img {
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .publish > form {
+        flex-direction: column;
+    }
+
+    .publish > form > div > div {
+        height: 50px;
+        margin-top: 1%;
+    }
+
+    .publish > form > div > div {
+        display: grid;
+        grid-template-columns:repeat(2, 1fr);
+    }
+
+    .publish > form > div > div > input {
+        width: 50%;
+        height: 14px;
+    }
+
+    #publicidad {
+        flex-direction: column;
+    }
+
+    #video > video {
+        width: 100% !important;
+    }
+
+    .publish {
+        margin-top: 10px;
+    }
+
+    .publish > h3 {
+        font-size: 25px;
+        line-height: 1.2;
+    }
+
+    .tarjetas {
+        padding-top: 7%;
+        grid-template: repeat(4, 1fr) / 1fr;
+    }
+
+    .tarjetas-promocion {
+        grid-template: repeat(4, 1fr) / 1fr;
+    }
+
+    /*.tarjeta-imagen {*/
+    /*    display: none;*/
+    /*}*/
+}
+
+/** dispositivos pequeños en vista landscape (horizontal) */
+@media (min-width: 576px) and (max-width: 767px) {
+
+}
+
+/** dispositivos medianos (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/** dispositivos grandes (desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/** dispositivos extra grandes (monitores grandes, tvs) */
+@media (min-width: 1200px) {
+
 }

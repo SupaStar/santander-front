@@ -36,46 +36,52 @@
         </div>
     </header>
 </section>
-<h1>Poderosisimo titulo en h1</h1>
-<h2>Poderosisimo titulo en h2</h2>
-<h3>Poderosisimo titulo en h3</h3>
-<h4>Poderosisimo titulo en h4</h4>
-<h5>Poderosisimo titulo en h5</h5>
-<h6>Poderosisimo titulo en h6</h6>
+<main>
+    <h1>Poderosisimo titulo en h1</h1>
+    <h2>Poderosisimo titulo en h2</h2>
+    <h3>Poderosisimo titulo en h3</h3>
+    <h4>Poderosisimo titulo en h4</h4>
+    <h5>Poderosisimo titulo en h5</h5>
+    <h6>Poderosisimo titulo en h6</h6>
+</main>
 <p>
     <b>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam animi commodi consectetur cumque deserunt est
         exercitationem</b>
     facere illo itaque laboriosam laborum maiores, officia, quasi repudiandae sint suscipit velit vero
     voluptatem?</p>
 <!--<input type="text"><br>-->
-<form action="" class="row justify-content-center">
-    <div class="col-5">
-        <div class="mb-3">
-            <label for="nombre" class="form-label">Nombre:</label>
-            <input type="text" id="nombre" class="form-control">
+<section class="publish">
+    <form action="">
+        <div>
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre">
+            </div>
+            <div>
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido">
+            </div>
+            <div>
+                <label for="edad">Edad:</label>
+                <input type="number" id="edad">
+            </div>
+            <div>
+                <label for="mail">Email:</label>
+                <input type="email" id="mail">
+            </div>
+            <div>
+                <label for="pass">Password:</label>
+                <input type="password" id="pass">
+            </div>
         </div>
-        <div class="mb-3">
-            <label for="apellido" class="form-label">Apellido:</label>
-            <input type="text" id="apellido" class="form-control">
-        </div>
-        <div class="mb-3">
-            <label for="edad" class="form-label">Edad:</label>
-            <input type="number" id="edad" class="form-control">
-        </div>
-        <div class="mb-3">
-            <label for="mail" class="form-label">Email:</label>
-            <input type="email" id="mail" class="form-control">
-        </div>
-        <div class="mb-3">
-            <label for="pass" class="form-label">Password:</label>
-            <input type="password" id="pass" class="form-control"
-        </div>
-    </div>
-    <button id="enviar" type="submit">Enviar &rarr;</button>
-</form>
+        <button id="enviar" type="submit">Enviar &rarr;</button>
+    </form>
+</section>
 <div style="margin-left: 25%">
-    <img src="assets/img/Cj.jpg"
-         class="img-fluid" alt="Gabriel Reszendiz">
+    <figure class="banner">
+        <img src="assets/img/Cj.jpg"
+             class="img-fluid" alt="Gabriel Reszendiz">
+    </figure>
 </div>
 <section>
     <div id="publicidad">
@@ -163,6 +169,7 @@
             <figure>
                 <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/image_capture.png"
                      alt="Capture example"/>
+            </figure>
         </div>
     </article>
     <article class="tarjeta">
