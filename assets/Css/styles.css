@@ -50,12 +50,12 @@ li {
     height: 100%;
 }
 
-.navbar {
-    width: 55%;
-    text-align: center;
-    color: #025157;
-    font-weight: 500;
-}
+/*.navbar {*/
+/*    width: 55%;*/
+/*    text-align: center;*/
+/*    color: #025157;*/
+/*    font-weight: 500;*/
+/*}*/
 
 .navbar > ul > li {
     margin: 0 25px 0 25px;
@@ -421,10 +421,9 @@ li {
 
 /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px) {
-    .navbar, .actions {
-        display: none;
-    }
-
+    /*.navbar, .actions {*/
+    /*    display: none;*/
+    /*}*/
     main {
         margin-top: 130px;
         text-align: center;
@@ -507,4 +506,13 @@ li {
 /** dispositivos extra grandes (monitores grandes, tvs) */
 @media (min-width: 1200px) {
 
+}
+
+.imagenChica {
+    width: 35px;
+    height: 35px;
+}
+.process-icon{
+    width: 60px;
+    height: 60px
 }
